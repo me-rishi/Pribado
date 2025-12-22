@@ -1,0 +1,44 @@
+{
+    "name": "pribado-cli",
+    "version": "1.0.41",
+    "description": "Command-line interface for Pribado Private API",
+    "main": "dist/index.js",
+    "bin": {
+        "pribado": "./bin/pribado.js"
+    },
+    "scripts": {
+        "build": "tsc",
+        "dev": "tsc --watch",
+        "start": "node dist/index.js",
+        "postinstall": "node dist/index.js || true"
+    },
+    "keywords": [
+        "pribado",
+        "api",
+        "cli",
+        "privacy",
+        "web3",
+        "wallet"
+    ],
+    "author": "Pribado",
+    "license": "MIT",
+    "dependencies": {
+        "chalk": "^5.3.0",
+        "commander": "^12.1.0",
+        "ethers": "^6.13.0",
+        "inquirer": "^9.2.23",
+        "ora": "^8.0.1"
+    },
+    "devDependencies": {
+        "@types/inquirer": "^9.0.7",
+        "@types/node": "^20.14.0",
+        "typescript": "^5.5.0"
+    },
+    "engines": {
+        "node": ">=18.0.0"
+    },
+    "files": [
+        "dist",
+        "bin"
+    ]
+}

@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  web:
+    container_name: subrosa-web
+    build: .
+    restart: always
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env.local
+    environment:
+      - PORT=3000
+      - HOSTNAME=0.0.0.0
+    volumes:
+      - ./data:/app/data
+
+  chat:
+    container_name: subrosa-chat
+    build: .
+    command: node server/runChatServer.js
+    restart: always
+    ports:
+      - "3002:3002"
+    env_file:
+      - .env.local
+    environment:
+      - CHAT_PORT=3002
+      - NEXT_API_URL=http://subrosa-web:3000
+    depends_on:
+      - web

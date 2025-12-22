@@ -1,0 +1,132 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Font */
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url('/fonts/static/RedHatDisplay-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url('/fonts/static/RedHatDisplay-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url('/fonts/static/RedHatDisplay-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@layer base {
+    :root {
+        --background: 0 0% 100%;
+        --foreground: 222.2 84% 4.9%;
+        /* Safe area insets for notched phones */
+        --safe-area-inset-top: env(safe-area-inset-top, 0px);
+        --safe-area-inset-bottom: env(safe-area-inset-bottom, 0px);
+        --safe-area-inset-left: env(safe-area-inset-left, 0px);
+        --safe-area-inset-right: env(safe-area-inset-right, 0px);
+    }
+
+    .dark {
+        --background: 240 10% 3.9%;
+        --foreground: 0 0% 98%;
+    }
+}
+
+@layer base {
+    * {
+        @apply border-zinc-800;
+        box-sizing: border-box;
+    }
+
+    html {
+        /* Prevent horizontal scroll on mobile */
+        overflow-x: hidden;
+        /* Use dynamic viewport height for mobile browsers */
+        height: 100%;
+    }
+
+    body {
+        @apply bg-zinc-950 text-zinc-50;
+        font-family: 'Red Hat Display', system-ui, sans-serif;
+        /* Prevent horizontal scroll */
+        overflow-x: hidden;
+        width: 100%;
+        min-height: 100%;
+        /* Support for dynamic viewport height */
+        min-height: 100dvh;
+        /* Prevent pull-to-refresh */
+        overscroll-behavior: none;
+    }
+}
+
+/* Mobile-specific utilities */
+@layer utilities {
+
+    /* Dynamic viewport height (accounts for mobile browser chrome) */
+    .h-dvh {
+        height: 100vh;
+        height: 100dvh;
+    }
+
+    .min-h-dvh {
+        min-height: 100vh;
+        min-height: 100dvh;
+    }
+
+    /* Safe area padding for notched phones */
+    .pt-safe {
+        padding-top: var(--safe-area-inset-top);
+    }
+
+    .pb-safe {
+        padding-bottom: var(--safe-area-inset-bottom);
+    }
+
+    .pl-safe {
+        padding-left: var(--safe-area-inset-left);
+    }
+
+    .pr-safe {
+        padding-right: var(--safe-area-inset-right);
+    }
+
+    /* Mobile keyboard height adjustment */
+    .keyboard-aware {
+        /* When keyboard is open, shrink the container */
+        height: calc(100dvh - env(keyboard-inset-height, 0px));
+    }
+
+    /* Touch-friendly tap targets (minimum 44px) */
+    .touch-target {
+        min-height: 44px;
+        min-width: 44px;
+    }
+
+    /* Prevent text size adjustment on orientation change */
+    .text-size-stable {
+        -webkit-text-size-adjust: 100%;
+        text-size-adjust: 100%;
+    }
+
+    /* Hide scrollbar but allow scrolling */
+    .scrollbar-hide {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+
+    .scrollbar-hide::-webkit-scrollbar {
+        display: none;
+    }
+}

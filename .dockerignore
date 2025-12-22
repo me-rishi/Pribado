@@ -1,0 +1,8 @@
+node_modules
+.next
+.git
+.DS_Store
+*.pem
+deploy.sh
+secure_setup.sh
+.env.local

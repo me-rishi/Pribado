@@ -1,0 +1,27 @@
+# Environment & Secrets
+.env.local
+
+secure_setup.sh
+deploy.sh
+
+# Legacy JSON files (migrated to SQLite)
+rate_limits.json
+stats.json
+sapphire_ledger.json
+data/*.json
+
+# SQLite Database (contains encrypted user data)
+data/*.sqlite
+data/*.sqlite-*
+
+# Build & Cache
+.next/
+node_modules/
+*.sqlite*
+deploy.tar.gz
+
+# Junk Files
+-H
+-d
+.DS_Store
+.antigravityignore
